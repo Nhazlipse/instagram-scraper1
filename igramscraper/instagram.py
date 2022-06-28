@@ -49,7 +49,7 @@ class Instagram:
         self.user_session = None
         self.rhx_gis = None
         self.sleep_between_requests = sleep_between_requests
-        self.user_agent = 'Instagram 126.0.0.25.121 Android (23/6.0.1; 320dpi; 720x1280; samsung; SM-A310F; a3xelte; samsungexynos7580; en_GB; 110937453)'
+        self.user_agent = 'Mozilla/5.0 (Linux; Android 10; SM-N975U Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/84.0.4147.89 Mobile Safari/537.36 Instagram 135.0.0.28.119 Android (29/10; 480dpi; 1080x2051; samsung; SM-N975U; d2q; qcom; en_US; 206670927)'
 
     def set_cookies(self,cookie):
         cj = http.cookiejar.MozillaCookieJar(cookie)
