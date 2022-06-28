@@ -7,6 +7,6 @@ instagram.login()
 media = instagram.get_media_by_id('1880687465858169462')
 
 #not optimal to many calls
-tagged_users = instagram.get_media_tagged_users_by_code(media.shortCode)
+tagged_users = instagram.get_media_tagged_users_by_code(media.short_code)
 
 print(tagged_users)
